@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """
     PyWebAssembly - Implmentation of WebAssembly, and some tools.
     Copyright (C) 2018-2019  Paul Dworzanski
@@ -21,7 +21,7 @@
 import sys
 sys.path.append('..')
 
-import pywebassembly as wasm
+import pywebassembly.pywebassembly as wasm
 
 def export_only_main_and_memory(mod):
   print("\nexports (should be main function and the memory):")

@@ -18,7 +18,7 @@
 
 import sys
 sys.path.append('..')
-import pywebassembly as wasm
+import pywebassembly.pywebassembly as wasm
 
 #set up VM for multiple modules
 store = wasm.init_store()                               #do this once for each VM instance

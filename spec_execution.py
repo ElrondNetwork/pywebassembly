@@ -16,8 +16,8 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
 
-import spec_structure as structure
-import spec_validation as validation
+import pywebassembly.spec_structure as structure
+import pywebassembly.spec_validation as validation
 import math
 import struct
 

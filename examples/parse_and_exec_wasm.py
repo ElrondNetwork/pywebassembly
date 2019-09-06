@@ -21,7 +21,7 @@
 import sys
 sys.path.append('..')
 
-import pywebassembly as wasm
+import pywebassembly.pywebassembly as wasm
 
 
 
