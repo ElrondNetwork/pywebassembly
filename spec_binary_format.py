@@ -16,7 +16,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
 
-import pywebassembly.spec_execution as execution
+import spec_execution as execution
 
 verbose = 0
 

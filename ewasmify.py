@@ -19,9 +19,8 @@
 
 
 import sys
-sys.path.append('..')
 
-import pywebassembly.pywebassembly as wasm
+import pywebassembly as wasm
 
 def export_only_main_and_memory(mod):
   print("\nexports (should be main function and the memory):")

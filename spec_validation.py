@@ -16,8 +16,8 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
 
-import pywebassembly.spec_structure as structure
-import pywebassembly.spec_binary_format as binary_format
+import spec_structure as structure
+import spec_binary_format as binary_format
 
 debug = 0
 

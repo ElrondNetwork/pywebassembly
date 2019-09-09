@@ -16,9 +16,9 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
 
-import pywebassembly.spec_binary_format as binary_format
-import pywebassembly.spec_validation as validation
-import pywebassembly.spec_execution as execution
+import spec_binary_format as binary_format
+import spec_validation as validation
+import spec_execution as execution
 
 
 ###############
